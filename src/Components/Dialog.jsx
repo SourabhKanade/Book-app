@@ -85,8 +85,8 @@ export default function BasicModal() {
   };
 
   return (
-    <div>
-      <Button onClick={handleOpen}>Add to Books List</Button>
+    <div style={{    marginTop: "14px"}}>
+      <Button variant="outlined" onClick={handleOpen}>Add to Books List</Button>
       <Modal
         open={open}
         onClose={handleClose}

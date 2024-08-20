@@ -35,7 +35,7 @@ const handleRowsPerPage = (event) => {
       <Grid
         container
         spacing={12}
-        style={{ marginTop: "20px", 
+        style={{ 
         display: "flex",
             alignContent: "center",
     flexDirection: "row",
